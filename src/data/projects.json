@@ -1,0 +1,20 @@
+[
+    {
+      "title": "Try IT ON",
+      "imageSrc": "projects/tryiton.png",
+      "skills": ["React", "Node.Js", "Tensorflow"],
+      "Github": "https://github.com/Tofu0mega/Hackfest2024"
+    },
+    {
+      "title": "Medical Data Analyzer",
+      "imageSrc": "projects/medicaldataanalyzer.png",
+      "skills": ["Python", "spaCY", "ML", "MERN"],
+      "Github":"https://github.com/Simranmahat/Medical_data_CustomNER"
+    },
+    {
+      "title": "Ridify",
+      "imageSrc": "projects/ridify.png",
+      "skills": ["Flutter", "API", "Firebase"],
+      "Github": "https://github.com/jiwanhumagain/Ridify"
+    }
+  ]

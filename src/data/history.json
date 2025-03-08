@@ -1,0 +1,19 @@
+[
+    {
+      "role": "AI Data Trainer",
+      "organisation": "Invisible Technologies",
+      "startDate": "OCT, 2024",
+      "endDate": "Jan,2025",
+      "experiences": ["Worked as agent for training data for AI using Reinforcement learning"],
+      "imageSrc": "history/invisible.jpeg"
+    },
+    {
+      "role": "Data Science Intern",
+      "organisation": "Prodigy InfoTech",
+      "startDate": "Dec, 2023",
+      "endDate": "Jan, 2024",
+      "experiences": ["Cleaned Data Set and Analyzed to derive insights from large dataset"],
+      "imageSrc": "history/prodigy.png"
+    }
+    
+  ]
