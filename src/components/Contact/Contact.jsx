@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from "./Contact.module.css"
-import { getImageUrl } from '../../utils'
+import email from "/assets/emailIcon.png"
+import linkedin from "/assets/linkedinIcon.png"
+import github from "/assets/githubIcon.png"
 
 const Contact = () => {
   return (
@@ -10,13 +12,13 @@ const Contact = () => {
             <p>Feel Free to Reach</p>
         </div>
         <ul className={styles.links}>
-            <li className={styles.link}><img src={getImageUrl("/contact/emailIcon.png")} alt="Email.icon" />
+            <li className={styles.link}><img src={email} alt="Email.icon" />
             <a href="mailto:simranmahat123@gmail.com">simranmahat123@gmail.com</a>
             </li>
-            <li className={styles.link}><img src={getImageUrl("/contact/linkedinIcon.png")} alt="linkedin.icon" />
+            <li className={styles.link}><img src={linkedin} alt="linkedin.icon" />
             <a href="https://www.linkedin.com/in/simranmahat/">linkedin.com/in/simranmahat/</a>
             </li>
-            <li className={styles.link}><img src={getImageUrl("/contact/githubIcon.png")} alt="github.icon"/>
+            <li className={styles.link}><img src={github} alt="github.icon"/>
             <a href="https://github.com/Simranmahat">github.com/Simranmahat/</a>
             </li>
 

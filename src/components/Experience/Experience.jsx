@@ -1,9 +1,8 @@
 import React from "react";
 
 import styles from "./Experience.module.css";
-import skills from "../../data/skills.json";
-import history from "../../data/history.json";
-import { getImageUrl } from "../../utils";
+import skills from "../../data/skills.js";
+import history from "../../data/history.js";
 
 const Experience = () => {
   return (
@@ -15,7 +14,7 @@ const Experience = () => {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                <img src={skill.imageSrc} alt={skill.title} />
                 </div>
                 <p>{skill.title}</p>
               </div>
@@ -27,7 +26,7 @@ const Experience = () => {
             return (
               <li key={id} className={styles.historyItem}>
                 <img
-                  src={getImageUrl(historyItem.imageSrc)}
+                  src={historyItem.imageSrc}
                   alt={`${historyItem.organisation} Logo`}
                 />
                 <div className={styles.historyItemDetails}>
